@@ -1,0 +1,179 @@
+body {
+  background: #85f785;
+  margin: 0;
+  font-family: Arial Narrow Bold;
+}
+
+.navbar {
+  background: white;
+  padding: 0.5em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.3em;
+}
+.navbar .logo span {
+  color: rgb(0, 0, 245);
+}
+.navbar nav {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 1em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: purple;
+  letter-spacing: 0.3em;
+}
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin-top: 0.2em;
+}
+.left-col .primary-cta {
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1.3em;
+  font-size: 0.9em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+.left-col .primary-cta span {
+  color: rgb(7, 247, 47);
+}
+
+section.features-section {
+  background: #20272E;
+  color: white;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: 0.1em;
+}
+ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+.features-section img {
+  display: block;
+  position: absolute;
+  right: 0.6em;
+  width: 220px;
+  bottom: 1em;
+}
+
+.testimonials-section {
+  background: darkblue;
+  color: white;
+}
+.testimonials-section li {
+  background: rgba(4, 186, 247, 0.767);
+  text-align: center;
+  padding: 2em 1em;
+  width: 60%;
+  margin: auto;
+  border-radius: 1em;
+}
+.testimonials-section li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #006BD6;
+  border-radius: 50%;
+  margin-top: -4em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  width: unset;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-around;
+  background: #85f785;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.navbar nav ul {
+  display: flex;
+}
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: 0.1em 1em;
+}
+.navbar nav ul.primary-nav {
+  margin: 0;
+}
+.navbar nav li.menu a {
+  font-weight: bold;
+}
+.navbar nav li.catering a {
+  font-weight: bold;
+}
+.navbar nav ul.secondary-nav {
+  margin: 0;
+}
+.navbar nav li.combos a {
+  font-weight: bold;
+}
+.navbar nav li.basket a {
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
